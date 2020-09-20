@@ -13,6 +13,7 @@
 		544740042517AB43000912A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544740022517AB43000912A7 /* Main.storyboard */; };
 		544740062517AB49000912A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544740052517AB49000912A7 /* Assets.xcassets */; };
 		544740092517AB49000912A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544740072517AB49000912A7 /* LaunchScreen.storyboard */; };
+		544740182517AFA1000912A7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544740172517AFA1000912A7 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		544740052517AB49000912A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544740082517AB49000912A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5447400A2517AB49000912A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544740172517AFA1000912A7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,72 @@
 		54473FFB2517AB43000912A7 /* RWClean */ = {
 			isa = PBXGroup;
 			children = (
-				54473FFC2517AB43000912A7 /* AppDelegate.swift */,
-				54473FFE2517AB43000912A7 /* SceneDelegate.swift */,
+				544740102517AB77000912A7 /* App */,
 				544740002517AB43000912A7 /* ViewController.swift */,
 				544740022517AB43000912A7 /* Main.storyboard */,
-				544740052517AB49000912A7 /* Assets.xcassets */,
 				544740072517AB49000912A7 /* LaunchScreen.storyboard */,
 				5447400A2517AB49000912A7 /* Info.plist */,
 			);
 			path = RWClean;
+			sourceTree = "<group>";
+		};
+		544740102517AB77000912A7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				544740112517AE0E000912A7 /* AppDelegate */,
+				544740162517AF14000912A7 /* Views */,
+				544740152517AEE2000912A7 /* SupportingFiles */,
+				544740142517AED6000912A7 /* Resources */,
+				544740132517AEB0000912A7 /* ViewControllers */,
+				544740122517AE9F000912A7 /* SceneDelegate */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		544740112517AE0E000912A7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				54473FFC2517AB43000912A7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		544740122517AE9F000912A7 /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				54473FFE2517AB43000912A7 /* SceneDelegate.swift */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		544740132517AEB0000912A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				544740172517AFA1000912A7 /* MenuTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		544740142517AED6000912A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				544740052517AB49000912A7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		544740152517AEE2000912A7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		544740162517AF14000912A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544740182517AFA1000912A7 /* MenuTableViewController.swift in Sources */,
 				544740012517AB43000912A7 /* ViewController.swift in Sources */,
 				54473FFD2517AB43000912A7 /* AppDelegate.swift in Sources */,
 				54473FFF2517AB43000912A7 /* SceneDelegate.swift in Sources */,
