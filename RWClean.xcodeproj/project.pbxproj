@@ -14,6 +14,7 @@
 		544740062517AB49000912A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544740052517AB49000912A7 /* Assets.xcassets */; };
 		544740092517AB49000912A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544740072517AB49000912A7 /* LaunchScreen.storyboard */; };
 		544740182517AFA1000912A7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544740172517AFA1000912A7 /* MenuTableViewController.swift */; };
+		545DB4662517CC9900D3414F /* ServerEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545DB4652517CC9900D3414F /* ServerEnvironments.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		544740082517AB49000912A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5447400A2517AB49000912A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544740172517AFA1000912A7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		545DB4652517CC9900D3414F /* ServerEnvironments.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerEnvironments.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,6 @@
 			children = (
 				544740102517AB77000912A7 /* App */,
 				544740002517AB43000912A7 /* ViewController.swift */,
-				544740022517AB43000912A7 /* Main.storyboard */,
-				544740072517AB49000912A7 /* LaunchScreen.storyboard */,
 				5447400A2517AB49000912A7 /* Info.plist */,
 			);
 			path = RWClean;
@@ -115,6 +115,7 @@
 		544740152517AEE2000912A7 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				545DB4652517CC9900D3414F /* ServerEnvironments.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -122,6 +123,8 @@
 		544740162517AF14000912A7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				544740022517AB43000912A7 /* Main.storyboard */,
+				544740072517AB49000912A7 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544740092517AB49000912A7 /* LaunchScreen.storyboard in Resources */,
+				545DB4662517CC9900D3414F /* ServerEnvironments.plist in Resources */,
 				544740062517AB49000912A7 /* Assets.xcassets in Resources */,
 				544740042517AB43000912A7 /* Main.storyboard in Resources */,
 			);
