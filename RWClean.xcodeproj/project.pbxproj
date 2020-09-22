@@ -13,6 +13,11 @@
 		544740062517AB49000912A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544740052517AB49000912A7 /* Assets.xcassets */; };
 		544740092517AB49000912A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544740072517AB49000912A7 /* LaunchScreen.storyboard */; };
 		544740182517AFA1000912A7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544740172517AFA1000912A7 /* MenuTableViewController.swift */; };
+		545AAC932519D1C700FF1D27 /* CleaningServicesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC922519D1C700FF1D27 /* CleaningServicesBuilder.swift */; };
+		545AAC962519D42A00FF1D27 /* HomeInfoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC952519D42A00FF1D27 /* HomeInfoBuilder.swift */; };
+		545AAC9C2519D71000FF1D27 /* HomeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC9B2519D71000FF1D27 /* HomeInfo.swift */; };
+		545AAC9F251A442900FF1D27 /* RoomSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC9E251A442900FF1D27 /* RoomSize.swift */; };
+		545AACA1251A4D2100FF1D27 /* HomeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AACA0251A4D2100FF1D27 /* HomeInfoViewController.swift */; };
 		545DB4662517CC9900D3414F /* ServerEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545DB4652517CC9900D3414F /* ServerEnvironments.plist */; };
 		549C652D2518A8E500B86565 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549C652C2518A8E500B86565 /* Welcome.storyboard */; };
 		549C652F2518AA3800B86565 /* Welcome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549C652E2518AA3800B86565 /* Welcome.xcassets */; };
@@ -30,6 +35,11 @@
 		544740082517AB49000912A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5447400A2517AB49000912A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544740172517AFA1000912A7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		545AAC922519D1C700FF1D27 /* CleaningServicesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningServicesBuilder.swift; sourceTree = "<group>"; };
+		545AAC952519D42A00FF1D27 /* HomeInfoBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoBuilder.swift; sourceTree = "<group>"; };
+		545AAC9B2519D71000FF1D27 /* HomeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfo.swift; sourceTree = "<group>"; };
+		545AAC9E251A442900FF1D27 /* RoomSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSize.swift; sourceTree = "<group>"; };
+		545AACA0251A4D2100FF1D27 /* HomeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoViewController.swift; sourceTree = "<group>"; };
 		545DB4652517CC9900D3414F /* ServerEnvironments.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerEnvironments.plist; sourceTree = "<group>"; };
 		549C652C2518A8E500B86565 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		549C652E2518AA3800B86565 /* Welcome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Welcome.xcassets; sourceTree = "<group>"; };
@@ -69,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				544740102517AB77000912A7 /* App */,
+				545AAC912519D1A100FF1D27 /* Cleaning Services */,
+				545AAC942519D40200FF1D27 /* Home Info */,
 				549C65282518A88400B86565 /* Welcome */,
 				544740002517AB43000912A7 /* ViewController.swift */,
 				5447400A2517AB49000912A7 /* Info.plist */,
@@ -136,6 +148,65 @@
 				544740072517AB49000912A7 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		545AAC912519D1A100FF1D27 /* Cleaning Services */ = {
+			isa = PBXGroup;
+			children = (
+				545AAC9D251A441900FF1D27 /* Models */,
+				545AAC922519D1C700FF1D27 /* CleaningServicesBuilder.swift */,
+			);
+			path = "Cleaning Services";
+			sourceTree = "<group>";
+		};
+		545AAC942519D40200FF1D27 /* Home Info */ = {
+			isa = PBXGroup;
+			children = (
+				545AAC9A2519D6C100FF1D27 /* Resources */,
+				545AAC992519D6AF00FF1D27 /* Models */,
+				545AAC982519D6A200FF1D27 /* Controllers */,
+				545AAC972519D69900FF1D27 /* Views */,
+				545AAC952519D42A00FF1D27 /* HomeInfoBuilder.swift */,
+			);
+			path = "Home Info";
+			sourceTree = "<group>";
+		};
+		545AAC972519D69900FF1D27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		545AAC982519D6A200FF1D27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				545AACA0251A4D2100FF1D27 /* HomeInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		545AAC992519D6AF00FF1D27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				545AAC9B2519D71000FF1D27 /* HomeInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		545AAC9A2519D6C100FF1D27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		545AAC9D251A441900FF1D27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				545AAC9E251A442900FF1D27 /* RoomSize.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		549C65282518A88400B86565 /* Welcome */ = {
@@ -247,12 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545AAC9C2519D71000FF1D27 /* HomeInfo.swift in Sources */,
 				544740182517AFA1000912A7 /* MenuTableViewController.swift in Sources */,
+				545AACA1251A4D2100FF1D27 /* HomeInfoViewController.swift in Sources */,
 				544740012517AB43000912A7 /* ViewController.swift in Sources */,
 				54473FFD2517AB43000912A7 /* AppDelegate.swift in Sources */,
 				549C65332518B30B00B86565 /* WelcomeViewController.swift in Sources */,
+				545AAC962519D42A00FF1D27 /* HomeInfoBuilder.swift in Sources */,
 				549C65312518B01200B86565 /* WelcomePageViewController.swift in Sources */,
 				549C653525191A8A00B86565 /* SceneDelegate.swift in Sources */,
+				545AAC932519D1C700FF1D27 /* CleaningServicesBuilder.swift in Sources */,
+				545AAC9F251A442900FF1D27 /* RoomSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
