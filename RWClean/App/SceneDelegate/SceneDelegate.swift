@@ -10,15 +10,39 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+    
+
     var window: UIWindow?
+    var windowScene: UIWindowScene?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+         windowScene = UIWindowScene(session: session, connectionOptions: connectionOptions)
+
+        
+        configureRootViewController()
     }
+    
+    private func configureRootViewController(){
+        
+         
+       //  self.window = UIWindow(windowScene: windowScene!)
+         //self.window =  UIWindow(frame: UIScreen.main.bounds)
+         let storyboard = UIStoryboard(name: "Welcome", bundle: nil)
+         guard let rootVC = storyboard.instantiateViewController(identifier: "WelcomeViewController") as? WelcomeViewController else {
+             print("ViewController not found")
+             return
+         }
+         rootVC.delegate = self
+        // let rootNC = UINavigationController(rootViewController: rootVC)
+         self.window?.rootViewController = rootVC
+         self.window?.makeKeyAndVisible()
+    }
+    
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -49,5 +73,30 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
+extension SceneDelegate: WelcomeViewControllerDelegate{
+    
+    public func welcomeViewControllerPressed(_ controller: WelcomeViewController) {
+        
+        print("window!.bounds \(window!.bounds)")
+        let newWindow = UIWindow(windowScene: windowScene!)
+    
+        let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+
+        newWindow.rootViewController = rootVC
+        
+        newWindow.makeKeyAndVisible()
+        newWindow.alpha = 0.0
+ 
+        
+        
+        UIView.animate(withDuration: 0.33, animations: {
+            
+            newWindow.alpha = 1.0
+        }) { _ in
+            self.window = newWindow
+        }
+    }
+    
 }
 

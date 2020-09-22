@@ -8,16 +8,191 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0E4537C3-89D3-4E76-9424-ABF0DF3B811B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RWClean/App/AppDelegate/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "AppDelegate"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83D457DE-7266-45A4-9B5B-9C0C26E22B93"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/App/SceneDelegate/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "sceneDidEnterBackground(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D99E260-B64E-41C7-8A0C-4DCA90B0F3F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/Welcome/Controllers/WelcomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "doneButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5246F714-F4C3-4858-9045-A8688FBB94DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/App/ViewControllers/MenuTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0061CC4D-034A-4D34-B4F3-DB8E6146C513"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/App/SceneDelegate/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "welcomeViewControllerPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0035E0E1-1221-4523-9ED0-00841DEC2962"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/App/SceneDelegate/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "welcomeViewControllerPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0035E0E1-1221-4523-9ED0-00841DEC2962 - 3f21be37e15135ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RWClean.SceneDelegate.welcomeViewControllerPressed(RWClean.WelcomeViewController) -&gt; ()"
+                  moduleName = "RWClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudaoata/Documents/ios%20projects/RWClean/RWClean/App/SceneDelegate/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "0035E0E1-1221-4523-9ED0-00841DEC2962 - 29291736b0034cff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RWClean.SceneDelegate.welcomeViewControllerPressed(RWClean.WelcomeViewController) -&gt; ()"
+                  moduleName = "RWClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudaoata/Documents/ios%20projects/RWClean/RWClean/App/SceneDelegate/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4701DB5C-BFD5-4AD3-A659-DA140328C1A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RWClean/App/SceneDelegate/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "welcomeViewControllerPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4701DB5C-BFD5-4AD3-A659-DA140328C1A8 - 3f21be37e15135ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RWClean.SceneDelegate.welcomeViewControllerPressed(RWClean.WelcomeViewController) -&gt; ()"
+                  moduleName = "RWClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudaoata/Documents/ios%20projects/RWClean/RWClean/App/SceneDelegate/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "878">
+               </Location>
+               <Location
+                  uuid = "4701DB5C-BFD5-4AD3-A659-DA140328C1A8 - 29291736b0034cff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RWClean.SceneDelegate.welcomeViewControllerPressed(RWClean.WelcomeViewController) -&gt; ()"
+                  moduleName = "RWClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudaoata/Documents/ios%20projects/RWClean/RWClean/App/SceneDelegate/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "4701DB5C-BFD5-4AD3-A659-DA140328C1A8 - e1edb4f42ff0b57f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in RWClean.SceneDelegate.welcomeViewControllerPressed(RWClean.WelcomeViewController) -&gt; ()"
+                  moduleName = "RWClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudaoata/Documents/ios%20projects/RWClean/RWClean/App/SceneDelegate/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
