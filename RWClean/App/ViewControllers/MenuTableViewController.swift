@@ -34,10 +34,52 @@ class MenuTableViewController: UITableViewController {
         navigationController?.navigationBar.isHidden = false
     }
     
+    //MARK: - UITableViewDelegate
+    
+    private struct CellIdentifiers{
+        
+        static let products = "ProductsCell"
+        static let homeInfo = "HomeInfoCell"
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard let cellIdentifier = tableView.cellForRow(at: indexPath)?.reuseIdentifier else { return
+            
+        }
+        
+        switch cellIdentifier {
+        case CellIdentifiers.products: showCleaningServicseController()
+        case CellIdentifiers.homeInfo: showHomeInfoController()
+        default: break
+        }
+    }
+    
+    fileprivate func showCleaningServicseController(){
+        
+        let viewController = CleaningServicesBuilder.instantiateNavigationController()
+        
+        splitViewController?.showDetailViewController(viewController, sender: nil)
+        
+    }
+    
+    fileprivate func showHomeInfoController(){
+        let viewController = HomeInfoBuilder.instantiateNavigationController(delegate: self)
+        
+        splitViewController!.showDetailViewController(viewController, sender: nil)
+        
+    }
+    
+
+}
+
+extension MenuTableViewController : HomeInfoBuidlerDelegate{
+    func homeInfoBuilderCompleted(_ homeInfo: HomeInfo) {
+        navigationController?.viewControllers = [self]
+        
+        showCleaningServicseController()
+    }
     
     
     
-
-
-
 }
