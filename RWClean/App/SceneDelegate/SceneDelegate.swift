@@ -81,8 +81,9 @@ extension SceneDelegate: WelcomeViewControllerDelegate{
         print("window!.bounds \(window!.bounds)")
         let newWindow = UIWindow(windowScene: windowScene!)
     
-        let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
-
+        let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! UISplitViewController
+        
+    
         newWindow.rootViewController = rootVC
         
         newWindow.makeKeyAndVisible()

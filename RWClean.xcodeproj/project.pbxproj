@@ -18,6 +18,8 @@
 		545AAC9C2519D71000FF1D27 /* HomeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC9B2519D71000FF1D27 /* HomeInfo.swift */; };
 		545AAC9F251A442900FF1D27 /* RoomSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AAC9E251A442900FF1D27 /* RoomSize.swift */; };
 		545AACA1251A4D2100FF1D27 /* HomeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AACA0251A4D2100FF1D27 /* HomeInfoViewController.swift */; };
+		545AACA7251AA47D00FF1D27 /* CleaningServices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545AACA6251AA47D00FF1D27 /* CleaningServices.storyboard */; };
+		545AACA9251AA4BF00FF1D27 /* CleaningServices.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545AACA8251AA4BF00FF1D27 /* CleaningServices.xcassets */; };
 		545DB4662517CC9900D3414F /* ServerEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545DB4652517CC9900D3414F /* ServerEnvironments.plist */; };
 		549C652D2518A8E500B86565 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549C652C2518A8E500B86565 /* Welcome.storyboard */; };
 		549C652F2518AA3800B86565 /* Welcome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549C652E2518AA3800B86565 /* Welcome.xcassets */; };
@@ -40,6 +42,8 @@
 		545AAC9B2519D71000FF1D27 /* HomeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfo.swift; sourceTree = "<group>"; };
 		545AAC9E251A442900FF1D27 /* RoomSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSize.swift; sourceTree = "<group>"; };
 		545AACA0251A4D2100FF1D27 /* HomeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoViewController.swift; sourceTree = "<group>"; };
+		545AACA6251AA47D00FF1D27 /* CleaningServices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CleaningServices.storyboard; sourceTree = "<group>"; };
+		545AACA8251AA4BF00FF1D27 /* CleaningServices.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CleaningServices.xcassets; sourceTree = "<group>"; };
 		545DB4652517CC9900D3414F /* ServerEnvironments.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerEnvironments.plist; sourceTree = "<group>"; };
 		549C652C2518A8E500B86565 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		549C652E2518AA3800B86565 /* Welcome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Welcome.xcassets; sourceTree = "<group>"; };
@@ -153,6 +157,9 @@
 		545AAC912519D1A100FF1D27 /* Cleaning Services */ = {
 			isa = PBXGroup;
 			children = (
+				545AACA5251AA44400FF1D27 /* Controllers */,
+				545AACA3251AA40E00FF1D27 /* Resources */,
+				545AACA2251AA3FD00FF1D27 /* Views */,
 				545AAC9D251A441900FF1D27 /* Models */,
 				545AAC922519D1C700FF1D27 /* CleaningServicesBuilder.swift */,
 			);
@@ -207,6 +214,29 @@
 				545AAC9E251A442900FF1D27 /* RoomSize.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		545AACA2251AA3FD00FF1D27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				545AACA6251AA47D00FF1D27 /* CleaningServices.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		545AACA3251AA40E00FF1D27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				545AACA8251AA4BF00FF1D27 /* CleaningServices.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		545AACA5251AA44400FF1D27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		549C65282518A88400B86565 /* Welcome */ = {
@@ -304,7 +334,9 @@
 			files = (
 				549C652D2518A8E500B86565 /* Welcome.storyboard in Resources */,
 				544740092517AB49000912A7 /* LaunchScreen.storyboard in Resources */,
+				545AACA9251AA4BF00FF1D27 /* CleaningServices.xcassets in Resources */,
 				549C652F2518AA3800B86565 /* Welcome.xcassets in Resources */,
+				545AACA7251AA47D00FF1D27 /* CleaningServices.storyboard in Resources */,
 				545DB4662517CC9900D3414F /* ServerEnvironments.plist in Resources */,
 				544740062517AB49000912A7 /* Assets.xcassets in Resources */,
 				544740042517AB43000912A7 /* Main.storyboard in Resources */,

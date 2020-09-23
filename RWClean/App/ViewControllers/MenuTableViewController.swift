@@ -24,6 +24,7 @@ class MenuTableViewController: UITableViewController {
     private func configureBackButton() {
       let image = UIImage(named: "menu")!
       let backButton = UIBarButtonItem(image: image, style: .done, target: nil, action: nil)
+        backButton.tintColor = .white
       navigationItem.backBarButtonItem = backButton
       navigationItem.backBarButtonItem = backButton
     }
@@ -32,6 +33,8 @@ class MenuTableViewController: UITableViewController {
         super.viewDidAppear(animated)
         
         navigationController?.navigationBar.isHidden = false
+        navigationController?.navigationBar.backgroundColor = .green
+
     }
     
     //MARK: - UITableViewDelegate

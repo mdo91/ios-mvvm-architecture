@@ -46,6 +46,7 @@ public class WelcomeViewController: UIViewController {
     
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        navigationController?.navigationBar.isHidden = false
     }
     
     @objc internal func updateImageView(_ timer: Timer){

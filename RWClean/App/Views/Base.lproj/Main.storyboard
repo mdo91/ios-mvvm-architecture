@@ -11,7 +11,7 @@
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="AMv-Lu-awl" customClass="MenuTableViewController" customModule="RWClean" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4J6-70-QAY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections>
@@ -81,10 +81,13 @@
         <scene sceneID="48w-rU-k7h">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZJp-GN-RN1" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g6Y-tG-rUc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="g6Y-tG-rUc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.017135919999999999" green="0.40798205139999999" blue="0.21718013289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="AMv-Lu-awl" kind="relationship" relationship="rootViewController" id="7oT-jx-e3Z"/>
@@ -100,11 +103,21 @@
                 <splitViewController storyboardIdentifier="Main" id="kGL-nU-0AF" sceneMemberID="viewController">
                     <connections>
                         <segue destination="ZJp-GN-RN1" kind="relationship" relationship="masterViewController" id="Vc4-M3-sM1"/>
+                        <segue destination="zon-RH-Qqu" kind="relationship" relationship="detailViewController" id="Cqj-k2-JKe"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D02-vf-LoN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-800" y="126"/>
         </scene>
+        <!--CleaningServices-->
+        <scene sceneID="fcM-pZ-kfz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CleaningServices" id="zon-RH-Qqu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRE-iO-tbM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-767" y="674"/>
+        </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
