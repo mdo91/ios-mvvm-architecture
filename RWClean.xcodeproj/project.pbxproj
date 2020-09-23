@@ -25,7 +25,6 @@
 		549C652F2518AA3800B86565 /* Welcome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549C652E2518AA3800B86565 /* Welcome.xcassets */; };
 		549C65312518B01200B86565 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549C65302518B01200B86565 /* WelcomePageViewController.swift */; };
 		549C65332518B30B00B86565 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549C65322518B30B00B86565 /* WelcomeViewController.swift */; };
-		549C653525191A8A00B86565 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549C653425191A8A00B86565 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		549C652E2518AA3800B86565 /* Welcome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Welcome.xcassets; sourceTree = "<group>"; };
 		549C65302518B01200B86565 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 		549C65322518B30B00B86565 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		549C653425191A8A00B86565 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +114,6 @@
 		544740122517AE9F000912A7 /* SceneDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				549C653425191A8A00B86565 /* SceneDelegate.swift */,
 			);
 			path = SceneDelegate;
 			sourceTree = "<group>";
@@ -358,7 +355,6 @@
 				549C65332518B30B00B86565 /* WelcomeViewController.swift in Sources */,
 				545AAC962519D42A00FF1D27 /* HomeInfoBuilder.swift in Sources */,
 				549C65312518B01200B86565 /* WelcomePageViewController.swift in Sources */,
-				549C653525191A8A00B86565 /* SceneDelegate.swift in Sources */,
 				545AAC932519D1C700FF1D27 /* CleaningServicesBuilder.swift in Sources */,
 				545AAC9F251A442900FF1D27 /* RoomSize.swift in Sources */,
 			);
